@@ -1,0 +1,122 @@
+body{
+
+   background-color: #c8bfbf;
+   background-color: white;
+   color: #000000;
+
+   hyphens: auto;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+
+   hyphenate-limit-lines: 2;
+   -webkit-hyphenate-limit-line: 2;
+
+   hyphenate-limit-chars: 7 3 3;
+   -webkit-hyphenate-limit-before: 3;
+   -webkit-hyphenate-limit-after: 3;
+}
+
+h1{
+   font-size: 100px;
+   font-family: molto, serif;
+   font-weight: 700;
+   font-style: Bold;  
+   text-align: center;   
+
+}
+ 
+h2{ 
+   font-size: 25px;
+   font-family: molto, serif;
+   font-weight: 700;
+   font-style: Bold;     
+}
+h3{ 
+   font-size: 65px;
+   font-family: molto, serif;
+   font-weight: 700;
+   font-style: Bold;     
+}
+
+h4{
+   font-size: 20px;
+   font-family: molto, serif;
+   font-weight: 700;
+   font-style: thin;    
+   margin: center;
+   text-align: center;
+
+ }
+.main_images {
+   border: 5px solid #0d0d0d;
+   margin: center;
+   align-items: center;
+   grid-template-rows: 3;
+}
+
+img{
+   width: 450px;
+   height: 500px;
+ }
+ 
+.icon img{
+   width: 100px;
+   height: 100px;
+}
+
+.image-grid{
+   
+}
+
+/* Base button styles */
+.button {
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+   cursor: pointer;
+   border-radius: 8px;
+   scroll-behavior: smooth; /* Smooth scrolling */
+ }
+ 
+ /* Hover effect */
+ .button:hover {
+   background-color: #45a049; /* Darker green */
+   transform: scale(1.05); /* Slight zoom effect */
+ }
+ 
+ /* Active (when clicked) effect */
+ .button:active {
+   background-color: #3e8e41; /* Even darker green */
+   transform: scale(0.95); /* Slight shrink effect */
+ }
+ 
+ /* Disabled state */
+ .button:disabled {
+   background-color: #cccccc;
+   cursor: not-allowed;
+   transform: none;
+ } 
+ 
+ /* Example for multiple buttons */
+ .button.secondary {
+   background-color: #008CBA; /* Blue */
+ }
+ 
+ .button.secondary:hover {
+   background-color: #007bb5;
+ }
+ 
+ /* Target section styling */
+ #target-section 
+   height: 500px;
+   background-color: #f0f0f0;
+   padding: 20px; {
+   border: 2px dashed #4CAF50;
+   margin-top: 20px;
+ }
